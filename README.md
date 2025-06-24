@@ -17,3 +17,38 @@ Menganalisis sentimen publik terhadap tokoh-tokoh kabinet menteri menggunakan da
 ## 🗂️ Struktur Folder
 
 
+---
+
+## ⚙️ Teknologi yang Digunakan
+
+- Python 3.x
+- TensorFlow & Keras
+- Scikit-learn
+- Pandas, NumPy, Matplotlib
+- Sastrawi (stemming Bahasa Indonesia)
+- Snscrape (pengambilan data dari media sosial X)
+
+---
+
+## 🔄 Alur Proses
+
+1. **Pengumpulan Data**: menggunakan snscrape dari media sosial X
+2. **Praproses Data**:
+   - Cleansing teks
+   - Tokenisasi
+   - Normalisasi
+   - Stopword removal
+   - Stemming
+3. **Ekstraksi Fitur**: TF-IDF dan padding sequence
+4. **Modeling**: Arsitektur LSTM untuk klasifikasi sentimen
+5. **Evaluasi Model**: akurasi, F1-score, AUC-ROC
+6. **Visualisasi**: grafik performa dan distribusi sentimen
+
+---
+
+## 🧪 Contoh Output
+
+```bash
+Input: "Saya sangat bangga dengan kabinet baru yang dipilih."
+Prediksi: Positif (92.5%)
+
