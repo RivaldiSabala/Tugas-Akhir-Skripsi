@@ -35,13 +35,14 @@ Menganalisis sentimen publik terhadap tokoh-tokoh kabinet menteri menggunakan da
 1. **Pengumpulan Data**: menggunakan snscrape dari media sosial X
 2. **Praproses Data**:
    - Cleansing teks
+   - Case Folding
    - Tokenisasi
    - Normalisasi
    - Stopword removal
    - Stemming
-3. **Ekstraksi Fitur**: TF-IDF dan padding sequence
+3. **Ekstraksi Fitur**: Term Frequency - Inverse Document Frequency (TF-IDF)
 4. **Modeling**: Arsitektur LSTM untuk klasifikasi sentimen
-5. **Evaluasi Model**: akurasi, F1-score, AUC-ROC
+5. **Evaluasi Model**: Confusion Matriks dan AUC-ROC
 6. **Visualisasi**: grafik performa dan distribusi sentimen
 
 ---
@@ -49,6 +50,5 @@ Menganalisis sentimen publik terhadap tokoh-tokoh kabinet menteri menggunakan da
 ## 🧪 Contoh Output
 
 ```bash
-Input: "Saya sangat bangga dengan kabinet baru yang dipilih."
 Prediksi: Positif (92.5%)
 
