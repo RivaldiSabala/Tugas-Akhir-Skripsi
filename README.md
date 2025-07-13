@@ -50,8 +50,4 @@ Menganalisis sentimen publik terhadap tokoh-tokoh kabinet menteri menggunakan da
 
 ---
 
-## 🧪 Contoh Output
-
-```bash
-Prediksi: Positif (92.5%)
 
